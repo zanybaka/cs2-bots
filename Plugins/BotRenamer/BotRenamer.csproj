@@ -10,4 +10,10 @@
     <ProjectReference Include="..\..\CounterStrikeSharp.API\CounterStrikeSharp.API.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="BotNames.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
